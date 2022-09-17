@@ -1,0 +1,19 @@
+h3
+{
+font-size: 30px !important;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn_success:hover{
+    background-color: skyblue;
+}
+
+canvas {
+    animation-name : color;
+    animation-duration : 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    from { box-shadow: 1px 1px 40px purple;}
+    to { box-shadow: 1px 1px 40px black;}
+}
